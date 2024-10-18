@@ -1,0 +1,18 @@
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ecommerce
+    username: root
+    password: root
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  profiles:
+    active: dev
+
+application:
+  name: product-service
+Build:
+  version: 1.0
