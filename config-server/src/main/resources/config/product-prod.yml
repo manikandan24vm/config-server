@@ -9,7 +9,8 @@ spring:
     generate-ddl: true
     show-sql: true
 
-application:
-  name: product-service
+  application:
+    name: product-service
+
 Build:
   version: 1.3

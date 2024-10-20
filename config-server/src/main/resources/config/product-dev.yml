@@ -1,4 +1,4 @@
- spring:
+spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/ecommerce
@@ -9,7 +9,8 @@
     generate-ddl: true
     show-sql: true
 
-application:
-  name: product-service
+  application:
+    name: product-service
+
 Build:
   version: 1.2
